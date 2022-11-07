@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <h1>This is AMAZON er Gorib Copy "Ema-John"</h1>
+    </div>
+  );
 }
