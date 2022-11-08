@@ -4,10 +4,16 @@ import logo from "../../images/Logo.svg";
 
 export default function Header() {
   return (
-    <div>
-      <div>
+    <nav className='header-container'>
+      <div className='logo'>
         <img src={logo} alt="" />
       </div>
-    </div>
+      <div className='nav-links'>
+        <a href='/home'>Home</a>
+        <a href='/order'>Order</a>
+        <a href='/inventory'>Inventory</a>
+        <a href='/login'>Login</a>
+      </div>
+    </nav>
   )
 }
