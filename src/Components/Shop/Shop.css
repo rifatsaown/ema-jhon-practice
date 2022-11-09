@@ -1,0 +1,7 @@
+.shop{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.shop div{
+    border: 1px solid black;
+}
