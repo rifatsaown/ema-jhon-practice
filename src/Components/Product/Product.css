@@ -11,6 +11,12 @@
     border-radius: 10px;
     position: relative;
 }
+.product h3{
+    margin-top: 0px;
+}
+.product-info{
+    margin: 0 14px;
+}
 .btn-cart {
     width: 100%;
     height: 48px;
@@ -19,4 +25,7 @@
     border-radius: 0px 0px 10px 10px;
     position: absolute;
     bottom: 0;
+}
+.btn-cart:hover{
+    background: #dd8f1b;
 }
