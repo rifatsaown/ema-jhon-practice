@@ -26,6 +26,9 @@
     position: absolute;
     bottom: 0;
 }
+.btn-text{
+    margin-right: 5px;
+}
 .btn-cart:hover{
     background: #dd8f1b;
 }
