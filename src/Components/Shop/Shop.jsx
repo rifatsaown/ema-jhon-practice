@@ -28,7 +28,7 @@ export default function Shop() {
       </div>
       <div className="shop-component">
         <h3>Order Summary</h3>
-        <h4>Items Selected : {cart.length}</h4>
+        <p>Items Selected : {cart.length}</p>
       </div>
     </div>
   );
