@@ -1,4 +1,5 @@
 import React from "react";
+import { addToDb } from "../../utilities/fakedb";
 import Product from "../Product/Product";
 import "./Shop.css";
 
@@ -13,6 +14,7 @@ export default function Shop() {
   const handleAddToCart = (product) => {
     const newCart = [...cart, product];
     setCart(newCart);
+    addToDb(product.id);
   };
 
   return (
