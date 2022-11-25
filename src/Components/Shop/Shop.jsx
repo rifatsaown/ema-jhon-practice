@@ -11,9 +11,6 @@ export default function Shop() {
       .then((res) => res.json())
       .then((json) => setProducts(json));
   }, []);
-  React.useEffect(() => {
-    
-  }, [cart]);
 
   const handleAddToCart = (product) => {
     const newCart = [...cart, product];
