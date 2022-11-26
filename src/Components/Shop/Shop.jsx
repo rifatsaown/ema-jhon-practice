@@ -11,6 +11,7 @@ export default function Shop() {
       .then((res) => res.json())
       .then((json) => setProducts(json));
   }, []);
+  
 
   const handleAddToCart = (product) => {
     const newCart = [...cart, product];
